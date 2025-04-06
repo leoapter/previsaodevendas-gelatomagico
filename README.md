@@ -1,6 +1,6 @@
 # 🍦 Gelato Mágico - Previsão de Vendas com Machine Learning na Azure
 
-Projeto desenvolvido com o objetivo de prever vendas de sorvete com base na temperatura do dia, utilizando **Machine Learning**, a plataforma **Microsoft Azure Machine Learning**, e boas práticas de **MLOps** como reprodutibilidade, versionamento com **MLflow**, e deploy em ambiente cloud.
+Este projeto faz parte dos desafios e atividade do Bootcamp DIO - Microsoft Certification Challenge #3 DP-100, cujo objetivo é prever vendas de sorvete com base na temperatura do dia, utilizando **Machine Learning**, a plataforma **Microsoft Azure Machine Learning**, e boas práticas de **MLOps** como reprodutibilidade, versionamento com **MLflow**, e deploy em ambiente cloud.
 
 ---
 
@@ -9,13 +9,13 @@ Projeto desenvolvido com o objetivo de prever vendas de sorvete com base na temp
 Imagine que você é dono da sorveteria **Gelato Mágico**, localizada em uma cidade litorânea. Percebeu que as vendas de sorvetes estão diretamente relacionadas com a **temperatura** do dia. Porém, sem um planejamento, pode acabar:
 
 - ❌ Produzindo mais sorvetes do que o necessário (desperdício);
-- ❌ Produzindo menos do que a demanda (perda de lucro).
+- ❌ Produzindo menos do que a demanda (perda de oportunidade de venda).
 
 ---
 
 ### 🎯 Objetivo
 
-Desenvolver um modelo de regressão para prever a quantidade de sorvetes vendidos com base na temperatura. O projeto envolve:
+Desenvolver um modelo de regressão linear para prever a quantidade de sorvetes vendidos com base na temperatura. O projeto envolve:
 
 ✅ Treinamento do modelo de Machine Learning  
 ✅ Registro e gerenciamento com **MLflow** na **Azure Machine Learning**  
@@ -120,20 +120,20 @@ joblib
 ---
 
 ## 🚀 Deploy do Modelo na Azure
-Com o modelo registrado, use o portal da Azure para:
+Com o modelo registrado, usar o portal da Azure para:
 
 Criar um endpoint REST
 
 Publicar o modelo como um serviço web (real-time inference)
 
-Conectar à sua aplicação
+Conectar à uma aplicação
 
 ---
 
 ## 🧠 Insights e Possibilidades
 A temperatura realmente é um excelente preditor para vendas de sorvete.
 
-O uso de Azure ML + MLflow facilitou o versionamento e automação do deploy.
+O uso de Azure ML + MLflow facilita o versionamento e automação do deploy.
 
 A pipeline pode ser estendida com:
 
