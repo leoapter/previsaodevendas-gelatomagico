@@ -1,6 +1,6 @@
 # 🍦 Gelato Mágico - Previsão de Vendas com Machine Learning na Azure
 
-Este projeto faz parte dos desafios e atividade do Bootcamp DIO - Microsoft Certification Challenge #3 DP-100, cujo objetivo é prever vendas de sorvete com base na temperatura do dia, utilizando **Machine Learning**, a plataforma **Microsoft Azure Machine Learning**, e boas práticas de **MLOps** como reprodutibilidade, versionamento com **MLflow**, e deploy em ambiente cloud.
+Este projeto faz parte dos desafios e atividades do Bootcamp DIO - Microsoft Certification Challenge #3 DP-100, cujo objetivo é prever vendas de sorvete com base na temperatura do dia, utilizando **Machine Learning**, a plataforma **Microsoft Azure Machine Learning**, e boas práticas de **MLOps** como reprodutibilidade, versionamento com **MLflow**, e deploy em ambiente cloud.
 
 ---
 
